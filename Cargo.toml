@@ -1,0 +1,11 @@
+[package]
+name = "leetcode"
+version = "0.1.0"
+edition = "2021"
+
+[dev-dependencies]
+criterion = "0.3.5"
+
+[[bench]]
+name = "two_sums"
+harness = false
