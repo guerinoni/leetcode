@@ -2,7 +2,7 @@ use criterion::{black_box, criterion_group, criterion_main, Criterion};
 use leetcode::two_sum::two_sum;
 
 fn criterion_benchmark(c: &mut Criterion) {
-    c.bench_function("two sum", |b| {
+    c.bench_function("two_sum", |b| {
         b.iter(|| {
             two_sum(black_box(vec![2, 7, 11, 15]), 9);
             two_sum(black_box(vec![3, 2, 4]), 6);
