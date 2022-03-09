@@ -13,3 +13,7 @@ harness = false
 [[bench]]
 name = "palindrome_number"
 harness = false
+
+[[bench]]
+name = "roman_to_integer"
+harness = false
