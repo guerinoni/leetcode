@@ -17,3 +17,7 @@ harness = false
 [[bench]]
 name = "roman_to_integer"
 harness = false
+
+[[bench]]
+name = "longest_common_prefix"
+harness = false
