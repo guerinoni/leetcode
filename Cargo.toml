@@ -21,3 +21,7 @@ harness = false
 [[bench]]
 name = "longest_common_prefix"
 harness = false
+
+[[bench]]
+name = "valid_parentheses"
+harness = false
