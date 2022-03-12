@@ -64,7 +64,7 @@ pub fn is_palindrome(x: i32) -> bool {
 
     while num != 0 {
         digits.push(num % 10);
-        num = num / 10;
+        num /= 10;
     }
 
     let mut i = 0;
@@ -75,11 +75,7 @@ pub fn is_palindrome(x: i32) -> bool {
         j -= 1;
     }
 
-    if i >= j {
-        return true;
-    } else {
-        return false;
-    }
+    i >= j
 }
 
 #[cfg(test)]
