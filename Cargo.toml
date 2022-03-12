@@ -7,7 +7,7 @@ edition = "2021"
 criterion = "0.3.5"
 
 [[bench]]
-name = "two_sums"
+name = "two_sum"
 harness = false
 
 [[bench]]
