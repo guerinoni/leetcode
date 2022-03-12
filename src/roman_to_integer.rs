@@ -23,7 +23,7 @@ pub fn roman_to_int(s: String) -> i32 {
                 left
             }
         })
-        .fold(0, |sum, x| sum + x)
+        .sum::<i32>()
         + decode(*s.as_bytes().last().unwrap() as char)
 }
 
