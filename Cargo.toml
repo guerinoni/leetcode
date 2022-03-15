@@ -25,3 +25,7 @@ harness = false
 [[bench]]
 name = "valid_parentheses"
 harness = false
+
+[[bench]]
+name = "merge_two_sorted_list"
+harness = false
