@@ -52,7 +52,7 @@ pub fn compare(list1: Option<Box<ListNode>>, list2: Option<Box<ListNode>>) -> bo
 pub fn create_list_node(values: Vec<i32>, idx: usize) -> Option<Box<ListNode>> {
     let val = *values.first().unwrap();
     let new_idx = idx + 1;
-    let mut new_values = values.clone();
+    let mut new_values = values;
     new_values.remove(0);
     if new_values.is_empty() {
         Some(Box::new(ListNode { val, next: None }))
