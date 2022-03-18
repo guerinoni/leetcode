@@ -1,3 +1,4 @@
+pub mod implement_strstr;
 pub mod longest_common_prefix;
 pub mod merge_two_sorted_list;
 pub mod palindrome_number;

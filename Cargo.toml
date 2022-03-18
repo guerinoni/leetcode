@@ -37,3 +37,7 @@ harness = false
 [[bench]]
 name = "remove_element"
 harness = false
+
+[[bench]]
+name = "implement_strstr"
+harness = false
