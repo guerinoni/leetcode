@@ -41,3 +41,7 @@ harness = false
 [[bench]]
 name = "implement_strstr"
 harness = false
+
+[[bench]]
+name = "search_insert_position"
+harness = false
