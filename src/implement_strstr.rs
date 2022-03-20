@@ -11,7 +11,7 @@ pub fn str_str(haystack: String, needle: String) -> i32 {
     haystack
         .find(&needle)
         .map(|n| n.try_into().unwrap())
-        .or_else(|| Some(-1))
+        .or(Some(-1))
         .unwrap()
 }
 
