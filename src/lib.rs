@@ -1,5 +1,6 @@
 pub mod implement_strstr;
 pub mod longest_common_prefix;
+pub mod maximum_subarray;
 pub mod merge_two_sorted_list;
 pub mod palindrome_number;
 pub mod remove_duplicates_from_sorted_array;
