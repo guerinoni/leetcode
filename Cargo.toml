@@ -49,3 +49,7 @@ harness = false
 [[bench]]
 name = "maximum_subarray"
 harness = false
+
+[[bench]]
+name = "length_last_word"
+harness = false
