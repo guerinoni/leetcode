@@ -53,3 +53,7 @@ harness = false
 [[bench]]
 name = "length_last_word"
 harness = false
+
+[[bench]]
+name = "plus_one"
+harness = false
