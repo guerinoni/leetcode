@@ -61,3 +61,7 @@ harness = false
 [[bench]]
 name = "add_binary"
 harness = false
+
+[[bench]]
+name = "sqrt"
+harness = false
