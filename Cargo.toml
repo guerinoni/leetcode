@@ -65,3 +65,7 @@ harness = false
 [[bench]]
 name = "sqrt"
 harness = false
+
+[[bench]]
+name = "climbing_stairs"
+harness = false
