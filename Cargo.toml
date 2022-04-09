@@ -69,3 +69,7 @@ harness = false
 [[bench]]
 name = "climbing_stairs"
 harness = false
+
+[[bench]]
+name = "remove_duplicates_from_sorted_linked_list"
+harness = false
