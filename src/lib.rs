@@ -4,6 +4,7 @@ pub mod implement_strstr;
 pub mod length_last_word;
 pub mod longest_common_prefix;
 pub mod maximum_subarray;
+pub mod merge_sorted_array;
 pub mod merge_two_sorted_list;
 pub mod palindrome_number;
 pub mod plus_one;
