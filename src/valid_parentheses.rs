@@ -28,6 +28,9 @@ fn reverse(c: char) -> Option<char> {
 }
 
 pub fn is_valid(s: String) -> bool {
+    if s.len() % 2 != 0 {
+        return false;
+    }
     let mut v = vec![];
     for c in s.chars() {
         match reverse(c) {
