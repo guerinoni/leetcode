@@ -77,3 +77,8 @@ harness = false
 [[bench]]
 name = "merge_sorted_array"
 harness = false
+
+[[bench]]
+name = "binary_tree_inorder_traversal"
+harness = false
+
