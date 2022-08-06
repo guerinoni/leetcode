@@ -82,3 +82,6 @@ harness = false
 name = "binary_tree_inorder_traversal"
 harness = false
 
+[[bench]]
+name = "same_tree"
+harness = false
