@@ -80,7 +80,7 @@ pub fn is_palindrome(x: i32) -> bool {
 
 #[cfg(test)]
 mod test {
-    use super::is_palindrome;
+    use super::*;
 
     #[test]
     fn check() {

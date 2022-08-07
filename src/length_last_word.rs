@@ -55,7 +55,7 @@ pub fn length_of_last_word(s: String) -> i32 {
 
 #[cfg(test)]
 mod test {
-    use crate::length_last_word::length_of_last_word;
+    use super::*;
 
     #[test]
     fn check() {

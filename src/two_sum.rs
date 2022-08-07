@@ -30,9 +30,7 @@ pub fn two_sum(nums: Vec<i32>, target: i32) -> Vec<i32> {
 
 #[cfg(test)]
 mod test {
-    use std::vec;
-
-    use crate::two_sum::two_sum;
+    use super::*;
 
     #[test]
     fn check() {

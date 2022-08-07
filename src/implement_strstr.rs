@@ -17,7 +17,7 @@ pub fn str_str(haystack: String, needle: String) -> i32 {
 
 #[cfg(test)]
 mod test {
-    use crate::implement_strstr::str_str;
+    use super::*;
 
     #[test]
     fn check() {

@@ -66,7 +66,7 @@ pub fn create_list_node(values: Vec<i32>, idx: usize) -> Option<Box<ListNode>> {
 
 #[cfg(test)]
 mod test {
-    use crate::merge_two_sorted_list::{compare, create_list_node, merge_two_lists};
+    use super::*;
 
     #[test]
     fn check_empty() {

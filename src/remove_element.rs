@@ -48,7 +48,7 @@ pub fn remove_element(nums: &mut Vec<i32>, val: i32) -> i32 {
 
 #[cfg(test)]
 mod test {
-    use crate::remove_element::remove_element;
+    use super::*;
 
     #[test]
     fn check() {

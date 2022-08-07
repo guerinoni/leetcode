@@ -36,7 +36,7 @@ pub fn remove_duplicates(nums: &mut Vec<i32>) -> i32 {
 
 #[cfg(test)]
 mod test {
-    use crate::remove_duplicates_from_sorted_array::remove_duplicates;
+    use super::*;
 
     #[test]
     fn check() {

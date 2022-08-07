@@ -49,7 +49,7 @@ pub fn inorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
 mod test {
     use std::{cell::RefCell, rc::Rc};
 
-    use super::{inorder_traversal, TreeNode};
+    use super::*;
 
     #[test]
     fn check_simple() {

@@ -31,7 +31,7 @@ pub fn max_sub_array(nums: Vec<i32>) -> i32 {
 
 #[cfg(test)]
 mod test {
-    use crate::maximum_subarray::max_sub_array;
+    use super::*;
 
     #[test]
     fn check() {
