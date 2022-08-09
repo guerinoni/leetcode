@@ -60,7 +60,7 @@ mod test {
     }
 
     #[test]
-    fn check_height_3() {
+    fn check_height_2() {
         // create
         //          1
         //  None        2

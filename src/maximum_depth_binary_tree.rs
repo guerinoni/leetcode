@@ -46,7 +46,7 @@ mod test {
     }
 
     #[test]
-    fn check_height_1() {
+    fn check_height_0() {
         let root = Some(Rc::new(RefCell::new(TreeNode {
             val: 1,
             left: None,
@@ -56,7 +56,7 @@ mod test {
     }
 
     #[test]
-    fn check_height_3() {
+    fn check_height_2() {
         // create
         //          1
         //  None        2
@@ -77,7 +77,7 @@ mod test {
     }
 
     #[test]
-    fn check_height_3_with_2_valid_path() {
+    fn check_height_2_with_2_valid_path() {
         // create
         //          1
         //  None        2
