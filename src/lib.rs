@@ -10,6 +10,7 @@ pub mod maximum_depth_binary_tree;
 pub mod maximum_subarray;
 pub mod merge_sorted_array;
 pub mod merge_two_sorted_list;
+pub mod minimum_depth_of_binary_tree;
 pub mod palindrome_number;
 pub mod plus_one;
 pub mod remove_duplicates_from_sorted_array;
