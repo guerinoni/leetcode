@@ -1,5 +1,6 @@
 pub mod add_binary;
 pub mod balanced_binary_tree;
+pub mod best_time_buy_sell_stock;
 pub mod binary_tree_inorder_traversal;
 pub mod climbing_stairs;
 pub mod convert_sorted_array_to_binary_search_tree;

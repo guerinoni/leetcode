@@ -18,7 +18,7 @@
 // }
 
 // NOTE: this can be inlined (compiler explorer will be happy :) )
-fn reverse(c: char) -> Option<char> {
+const fn reverse(c: char) -> Option<char> {
     match c {
         ')' => Some('('),
         ']' => Some('['),
