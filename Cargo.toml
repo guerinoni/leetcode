@@ -89,3 +89,7 @@ harness = false
 [[bench]]
 name = "convert_sorted_array_to_binary_search_tree"
 harness = false
+
+[[bench]]
+name = "pascal_triangle_two"
+harness = false
