@@ -12,9 +12,9 @@ pub fn is_palindrome(s: String) -> bool {
         .zip(result.chars().rev())
         .try_for_each(|couple| {
             if couple.0 != couple.1 {
-                return ControlFlow::Break(false);
+                ControlFlow::Break(false)
             } else {
-                return ControlFlow::Continue(());
+                ControlFlow::Continue(())
             }
         }) {
         ControlFlow::Continue(()) => true,

@@ -32,7 +32,7 @@ pub fn get_row(row_index: i32) -> Vec<i32> {
     result[0] = 1;
     for i in 1..result.len() {
         for j in (1..=i).rev() {
-            result[j] = result[j] + result[j - 1];
+            result[j] += result[j - 1];
         }
     }
 
