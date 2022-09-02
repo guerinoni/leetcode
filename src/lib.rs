@@ -6,6 +6,7 @@ pub mod binary_tree_postorder_traversal;
 pub mod binary_tree_preorder_traversal;
 pub mod climbing_stairs;
 pub mod convert_sorted_array_to_binary_search_tree;
+pub mod excel_sheet_column_title;
 pub mod implement_strstr;
 pub mod length_last_word;
 pub mod longest_common_prefix;
