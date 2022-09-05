@@ -10,6 +10,7 @@ pub mod excel_sheet_column_title;
 pub mod implement_strstr;
 pub mod length_last_word;
 pub mod longest_common_prefix;
+pub mod majority_element;
 pub mod maximum_depth_binary_tree;
 pub mod maximum_subarray;
 pub mod merge_sorted_array;
