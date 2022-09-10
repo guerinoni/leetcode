@@ -93,3 +93,7 @@ harness = false
 [[bench]]
 name = "pascal_triangle_two"
 harness = false
+
+[[bench]]
+name = "reverse_bits"
+harness = false
