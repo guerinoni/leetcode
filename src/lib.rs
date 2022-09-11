@@ -17,6 +17,7 @@ pub mod maximum_subarray;
 pub mod merge_sorted_array;
 pub mod merge_two_sorted_list;
 pub mod minimum_depth_of_binary_tree;
+pub mod number_of_1_bit;
 pub mod palindrome_number;
 pub mod pascal_triangle;
 pub mod pascal_triangle_two;
