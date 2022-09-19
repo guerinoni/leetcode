@@ -27,6 +27,7 @@ pub mod plus_one;
 pub mod remove_duplicates_from_sorted_array;
 pub mod remove_duplicates_from_sorted_linked_list;
 pub mod remove_element;
+pub mod remove_linked_list_elements;
 pub mod reverse_bits;
 pub mod roman_to_integer;
 pub mod same_tree;
