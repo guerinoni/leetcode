@@ -10,6 +10,7 @@ pub mod excel_sheet_column_number;
 pub mod excel_sheet_column_title;
 pub mod happy_number;
 pub mod implement_strstr;
+pub mod isomorphic_string;
 pub mod length_last_word;
 pub mod longest_common_prefix;
 pub mod majority_element;
