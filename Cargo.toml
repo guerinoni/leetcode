@@ -101,3 +101,7 @@ harness = false
 [[bench]]
 name = "reverse_linked_list"
 harness = false
+
+[[bench]]
+name = "contains_duplicate"
+harness = false
