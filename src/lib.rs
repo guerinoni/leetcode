@@ -6,6 +6,7 @@ pub mod binary_tree_postorder_traversal;
 pub mod binary_tree_preorder_traversal;
 pub mod climbing_stairs;
 pub mod contains_duplicate;
+pub mod contains_duplicate_two;
 pub mod convert_sorted_array_to_binary_search_tree;
 pub mod excel_sheet_column_number;
 pub mod excel_sheet_column_title;
