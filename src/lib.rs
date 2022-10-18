@@ -13,6 +13,7 @@ pub mod excel_sheet_column_title;
 pub mod happy_number;
 pub mod implement_stack_using_queues;
 pub mod implement_strstr;
+pub mod invert_binary_tree;
 pub mod isomorphic_string;
 pub mod length_last_word;
 pub mod longest_common_prefix;
