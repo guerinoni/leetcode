@@ -19,15 +19,15 @@ impl TreeNode {
     }
 }
 
-fn recoursive_postorder_traversal(node: &Rc<RefCell<TreeNode>>) -> Vec<i32> {
+fn recursive_postorder_traversal(node: &Rc<RefCell<TreeNode>>) -> Vec<i32> {
     let mut v = vec![];
 
     if let Some(ref l) = node.borrow().left {
-        v.extend(recoursive_postorder_traversal(l));
+        v.extend(recursive_postorder_traversal(l));
     }
 
     if let Some(ref r) = node.borrow().right {
-        v.extend(recoursive_postorder_traversal(r));
+        v.extend(recursive_postorder_traversal(r));
     }
 
     v.push(node.borrow().val);
@@ -37,7 +37,7 @@ fn recoursive_postorder_traversal(node: &Rc<RefCell<TreeNode>>) -> Vec<i32> {
 
 pub fn postorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
     match root {
-        Some(ref r) => recoursive_postorder_traversal(r),
+        Some(ref r) => recursive_postorder_traversal(r),
         None => vec![],
     }
 }

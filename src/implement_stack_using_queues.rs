@@ -16,7 +16,7 @@ impl MyStack {
     }
 
     fn top(&self) -> i32 {
-        *self.0.get(self.0.len()-1).unwrap_or(&0)
+        *self.0.get(self.0.len() - 1).unwrap_or(&0)
     }
 
     fn empty(&self) -> bool {

@@ -18,16 +18,16 @@ impl TreeNode {
     }
 }
 
-fn recoursive_preorder_traersal(root: &Rc<RefCell<TreeNode>>) -> Vec<i32> {
+fn recursive_preorder_traversal(root: &Rc<RefCell<TreeNode>>) -> Vec<i32> {
     let mut v = vec![];
     v.push(root.borrow().val);
 
     if let Some(ref left) = root.borrow().left {
-        v.extend(recoursive_preorder_traersal(left));
+        v.extend(recursive_preorder_traversal(left));
     }
 
     if let Some(ref right) = root.borrow().right {
-        v.extend(recoursive_preorder_traersal(right));
+        v.extend(recursive_preorder_traversal(right));
     }
 
     v
@@ -35,7 +35,7 @@ fn recoursive_preorder_traersal(root: &Rc<RefCell<TreeNode>>) -> Vec<i32> {
 
 pub fn preorder_traversal(root: Option<Rc<RefCell<TreeNode>>>) -> Vec<i32> {
     match root {
-        Some(ref r) => recoursive_preorder_traersal(r),
+        Some(ref r) => recursive_preorder_traversal(r),
         None => vec![],
     }
 }
