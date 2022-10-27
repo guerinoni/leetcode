@@ -40,6 +40,7 @@ pub mod same_tree;
 pub mod search_insert_position;
 pub mod single_number;
 pub mod sqrt;
+pub mod summary_ranges;
 pub mod symmetric_tree;
 pub mod two_sum;
 pub mod valid_palindrome;
