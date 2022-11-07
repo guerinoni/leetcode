@@ -29,6 +29,7 @@ pub mod pascal_triangle;
 pub mod pascal_triangle_two;
 pub mod path_sum;
 pub mod plus_one;
+pub mod power_of_two;
 pub mod remove_duplicates_from_sorted_array;
 pub mod remove_duplicates_from_sorted_linked_list;
 pub mod remove_element;
