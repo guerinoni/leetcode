@@ -22,9 +22,7 @@
 use crate::merge_two_sorted_list::ListNode;
 // NOTE: replace elements on same input.
 pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
-    if head == None {
-        return None;
-    }
+    head.as_ref()?;
 
     let mut hh = head;
     let mut prev = hh.as_mut().unwrap();
