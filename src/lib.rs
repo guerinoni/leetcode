@@ -2,6 +2,7 @@ pub mod add_binary;
 pub mod balanced_binary_tree;
 pub mod best_time_buy_sell_stock;
 pub mod binary_tree_inorder_traversal;
+mod binary_tree_path;
 pub mod binary_tree_postorder_traversal;
 pub mod binary_tree_preorder_traversal;
 pub mod climbing_stairs;

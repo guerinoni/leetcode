@@ -13,7 +13,7 @@ fn criterion_benchmark(c: &mut Criterion) {
                 "dfsfaskgfjsdkglhvnoncerwpeuobvjapcneioacNEAWOECN[RUOABAV JSRBFPSBFARWUAFWZ"
                     .to_owned(),
                 "dfsfaskgfjsdkglhvnoncerwpeuobvjapcneioacNEAWOECN[RUOABAV JSRBFPSBFARWUAFWn"
-                    .to_owned()
+                    .to_owned(),
             );
         })
     });
