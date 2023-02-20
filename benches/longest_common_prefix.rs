@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::longest_common_prefix::longest_common_prefix;
+use leetcode::e14_longest_common_prefix::longest_common_prefix;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("longest_common_prefix", |b| {

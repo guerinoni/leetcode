@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::palindrome_number::is_palindrome;
+use leetcode::e9_palindrome_number::is_palindrome;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("palindrome_number", |b| {

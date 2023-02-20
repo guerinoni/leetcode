@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::pascal_triangle_two::get_row;
+use leetcode::e119_pascal_triangle_two::get_row;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("pascal_triangle_two", |b| {

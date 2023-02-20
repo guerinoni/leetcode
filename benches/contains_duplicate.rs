@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::contains_duplicate::contains_duplicate;
+use leetcode::e217_contains_duplicate::contains_duplicate;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("contains_duplicate", |b| {

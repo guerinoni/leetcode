@@ -2,7 +2,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::binary_tree_inorder_traversal::{inorder_traversal, TreeNode};
+use leetcode::e94_binary_tree_inorder_traversal::{inorder_traversal, TreeNode};
 
 // NOTE: bench here is a bit fake because there is a creation of tree also :)
 fn criterion_benchmark(c: &mut Criterion) {

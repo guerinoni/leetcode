@@ -1,6 +1,6 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::merge_two_sorted_list::{compare, create_list_node};
-use leetcode::remove_duplicates_from_sorted_linked_list::delete_duplicates;
+use leetcode::e21_merge_two_sorted_list::{compare, create_list_node};
+use leetcode::e83_remove_duplicates_from_sorted_linked_list::delete_duplicates;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("remove_duplicates_from_sorted_linked_list", |b| {

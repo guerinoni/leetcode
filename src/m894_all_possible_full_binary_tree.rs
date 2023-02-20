@@ -71,7 +71,7 @@ pub fn all_possible_fbt(n: i32) -> Vec<Option<Rc<RefCell<TreeNode>>>> {
 
         list.extend(vec![vec![], v]);
     }
-    
+
     list.last().unwrap().clone()
 }
 

@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::climbing_stairs::climb_stairs;
+use leetcode::e70_climbing_stairs::climb_stairs;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("climbing_stairs", |b| {

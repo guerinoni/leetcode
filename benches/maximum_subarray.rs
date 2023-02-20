@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::maximum_subarray::max_sub_array;
+use leetcode::e53_maximum_subarray::max_sub_array;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("maximum_subarray", |b| {

@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::remove_element::remove_element;
+use leetcode::e27_remove_element::remove_element;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("remove_element", |b| {

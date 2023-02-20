@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::plus_one::plus_one;
+use leetcode::e66_plus_one::plus_one;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("plus_one", |b| {

@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::valid_parentheses::is_valid;
+use leetcode::e20_valid_parentheses::is_valid;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("valid_parentheses", |b| {

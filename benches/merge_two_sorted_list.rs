@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::merge_two_sorted_list::{create_list_node, merge_two_lists};
+use leetcode::e21_merge_two_sorted_list::{create_list_node, merge_two_lists};
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("merge_two_sorted_list", |b| {

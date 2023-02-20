@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::valid_anagram::is_anagram;
+use leetcode::e242_valid_anagram::is_anagram;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("valid_anagram", |b| {

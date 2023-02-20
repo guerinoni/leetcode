@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::roman_to_integer::roman_to_int;
+use leetcode::e13_roman_to_integer::roman_to_int;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("roman_to_integer", |b| {

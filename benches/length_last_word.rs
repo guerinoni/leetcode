@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::length_last_word::length_of_last_word;
+use leetcode::e58_length_last_word::length_of_last_word;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("length_last_word", |b| {

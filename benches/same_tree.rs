@@ -2,7 +2,7 @@ use std::cell::RefCell;
 use std::rc::Rc;
 
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::same_tree::{is_same_tree, TreeNode};
+use leetcode::e100_same_tree::{is_same_tree, TreeNode};
 
 // NOTE: bench here is a bit fake because there is a creation of tree also :)
 fn criterion_benchmark(c: &mut Criterion) {

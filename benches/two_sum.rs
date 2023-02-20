@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::two_sum::two_sum;
+use leetcode::e1_two_sum::two_sum;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("two_sum", |b| {

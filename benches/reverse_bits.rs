@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::reverse_bits::reverse_bits;
+use leetcode::e190_reverse_bits::reverse_bits;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("reverse_bits", |b| {

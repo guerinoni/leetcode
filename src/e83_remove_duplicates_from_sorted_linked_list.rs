@@ -19,7 +19,7 @@
 //     create_list_node(values, 0)
 // }
 
-use crate::merge_two_sorted_list::ListNode;
+use crate::e21_merge_two_sorted_list::ListNode;
 // NOTE: replace elements on same input.
 pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
     head.as_ref()?;
@@ -45,7 +45,7 @@ pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
 mod tests {
     use super::*;
 
-    use crate::merge_two_sorted_list::{compare, create_list_node};
+    use crate::e21_merge_two_sorted_list::{compare, create_list_node};
 
     #[test]
     fn check() {

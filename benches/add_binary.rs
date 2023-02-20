@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::add_binary::add_binary;
+use leetcode::e67_add_binary::add_binary;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("add_binary", |b| b.iter(|| {

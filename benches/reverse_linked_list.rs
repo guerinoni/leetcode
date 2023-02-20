@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::reverse_linked_list::{reverse_list, ListNode};
+use leetcode::e206_reverse_linked_list::{reverse_list, ListNode};
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("reverse_linked_list", |b| {

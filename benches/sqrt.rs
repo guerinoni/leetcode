@@ -1,5 +1,5 @@
 use criterion::{criterion_group, criterion_main, Criterion};
-use leetcode::sqrt::my_sqrt;
+use leetcode::e69_sqrt::my_sqrt;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("sqrt", |b| {

@@ -1,5 +1,5 @@
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
-use leetcode::search_insert_position::search_insert;
+use leetcode::e35_search_insert_position::search_insert;
 
 fn criterion_benchmark(c: &mut Criterion) {
     c.bench_function("search_insert_position", |b| {

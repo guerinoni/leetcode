@@ -2,8 +2,8 @@ use std::{cell::RefCell, rc::Rc};
 
 use criterion::{black_box, criterion_group, criterion_main, Criterion};
 use leetcode::{
-    convert_sorted_array_to_binary_search_tree::sorted_array_to_bst,
-    convert_sorted_array_to_binary_search_tree::TreeNode,
+    e108_convert_sorted_array_to_binary_search_tree::sorted_array_to_bst,
+    e108_convert_sorted_array_to_binary_search_tree::TreeNode,
 };
 
 fn criterion_benchmark(c: &mut Criterion) {
