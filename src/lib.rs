@@ -18,6 +18,7 @@ pub mod invert_binary_tree;
 pub mod isomorphic_string;
 pub mod length_last_word;
 pub mod longest_common_prefix;
+pub mod m894_all_possible_full_binary_tree;
 pub mod majority_element;
 pub mod maximum_depth_binary_tree;
 pub mod maximum_subarray;
