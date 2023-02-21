@@ -1,7 +1,7 @@
 // NOTE: linear, but functional style
 pub fn max_sub_array(nums: Vec<i32>) -> i32 {
     nums.iter()
-        .scan(std::i32::MIN, |curr: &mut i32, n: &i32| -> Option<i32> {
+        .scan(i32::MIN, |curr: &mut i32, n: &i32| -> Option<i32> {
             *curr = if curr.is_negative() { *n } else { *curr + n };
             Some(*curr)
         })

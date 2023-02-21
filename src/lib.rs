@@ -36,6 +36,8 @@ mod e232_implement_queue_using_stack;
 mod e234_palindrome_linked_list;
 pub mod e242_valid_anagram;
 mod e257_binary_tree_path;
+mod e258_add_digits;
+mod e263_ugly_number;
 pub mod e26_remove_duplicates_from_sorted_array;
 pub mod e27_remove_element;
 pub mod e35_search_insert_position;

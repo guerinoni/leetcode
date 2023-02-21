@@ -1,7 +1,7 @@
 pub fn max_profit(prices: Vec<i32>) -> i32 {
     prices
         .iter()
-        .fold((0, std::i32::MAX), |(profit, min), &n| {
+        .fold((0, i32::MAX), |(profit, min), &n| {
             let m = std::cmp::min(min, n);
             (std::cmp::max(profit, n - min), m)
         })
