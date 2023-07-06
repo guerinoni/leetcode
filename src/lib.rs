@@ -43,6 +43,7 @@ pub mod e26_remove_duplicates_from_sorted_array;
 mod e278_first_bad_version;
 pub mod e27_remove_element;
 mod e283_move_zeroes;
+mod e290_word_pattern;
 pub mod e35_search_insert_position;
 pub mod e53_maximum_subarray;
 pub mod e58_length_last_word;
