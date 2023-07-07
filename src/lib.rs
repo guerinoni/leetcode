@@ -9,6 +9,7 @@ mod e118_pascal_triangle;
 pub mod e119_pascal_triangle_two;
 mod e121_best_time_buy_sell_stock;
 mod e125_valid_palindrome;
+mod e1365_num_smaller_then_current;
 mod e136_single_number;
 pub mod e13_roman_to_integer;
 mod e144_binary_tree_preorder_traversal;
