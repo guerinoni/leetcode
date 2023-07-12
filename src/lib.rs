@@ -50,6 +50,7 @@ pub mod e53_maximum_subarray;
 pub mod e58_length_last_word;
 pub mod e66_plus_one;
 pub mod e67_add_binary;
+mod e696_count_binary_substrings;
 pub mod e69_sqrt;
 pub mod e70_climbing_stairs;
 pub mod e83_remove_duplicates_from_sorted_linked_list;
