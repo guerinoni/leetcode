@@ -26,6 +26,7 @@ mod e203_remove_linked_list_elements;
 mod e205_isomorphic_string;
 pub mod e206_reverse_linked_list;
 pub mod e20_valid_parentheses;
+mod e2103_rings_and_rods;
 pub mod e217_contains_duplicate;
 mod e219_contains_duplicate_two;
 pub mod e21_merge_two_sorted_list;
