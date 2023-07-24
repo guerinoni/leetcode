@@ -58,5 +58,6 @@ pub mod e70_climbing_stairs;
 pub mod e83_remove_duplicates_from_sorted_linked_list;
 pub mod e88_merge_sorted_array;
 pub mod e94_binary_tree_inorder_traversal;
+mod e977_sorted_squares;
 pub mod e9_palindrome_number;
 mod m894_all_possible_full_binary_tree;
