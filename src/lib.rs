@@ -55,6 +55,7 @@ pub mod e67_add_binary;
 mod e696_count_binary_substrings;
 pub mod e69_sqrt;
 pub mod e70_climbing_stairs;
+mod e746_min_cost_climbing_stairs;
 pub mod e83_remove_duplicates_from_sorted_linked_list;
 pub mod e88_merge_sorted_array;
 pub mod e94_binary_tree_inorder_traversal;
