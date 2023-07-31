@@ -20,6 +20,7 @@ mod e169_majority_element;
 mod e171_excel_sheet_column_number;
 pub mod e190_reverse_bits;
 mod e191_number_of_1_bit;
+mod e1957_make_fancy_string;
 pub mod e1_two_sum;
 mod e202_happy_number;
 mod e203_remove_linked_list_elements;

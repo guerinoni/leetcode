@@ -16,11 +16,7 @@
 pub fn count_bits(n: i32) -> Vec<i32> {
     let mut v = vec![0; n as usize + 1];
     for i in 1..(n as usize + 1) {
-        let t  = if i % 2 == 0 {
-            v[i / 2]
-        } else {
-            v[i - 1] + 1
-        };
+        let t = if i % 2 == 0 { v[i / 2] } else { v[i - 1] + 1 };
 
         v[i] = t;
     }
