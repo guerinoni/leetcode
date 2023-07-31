@@ -19,7 +19,7 @@ mod tests {
     use super::*;
 
     #[test]
-    fn test_1957() {
+    fn check() {
         assert_eq!(
             make_fancy_string("leeetcode".to_string()),
             "leetcode".to_string()

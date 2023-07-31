@@ -17,7 +17,7 @@ pub fn smaller_numbers_than_current(nums: Vec<i32>) -> Vec<i32> {
 mod tests {
     use super::*;
     #[test]
-    fn test_1365() {
+    fn check() {
         assert_eq!(
             smaller_numbers_than_current(vec![8, 1, 2, 2, 3]),
             vec![4, 0, 1, 1, 3]
