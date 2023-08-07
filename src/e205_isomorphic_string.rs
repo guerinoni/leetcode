@@ -3,7 +3,7 @@ use std::collections::HashMap;
 pub fn is_isomorphic(s: String, t: String) -> bool {
     let mut mapping_s = HashMap::new();
     let mut mapping_t = HashMap::new();
-    let iter = s.chars().zip(t.chars().into_iter());
+    let iter = s.chars().zip(t.chars());
     for (k, v) in iter {
         match (mapping_s.get(&k), mapping_t.get(&v)) {
             (Some(val), Some(key)) => {

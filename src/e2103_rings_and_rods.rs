@@ -11,7 +11,7 @@ pub fn count_points(rings: String) -> i32 {
         };
 
         let position = (ring[1] - b'0') as usize;
-        rods[position] = 1 << which_color | rods[position];
+        rods[position] |= 1 << which_color;
     }
 
     rods.iter().filter(|&&colors| colors == 0b111).count() as i32

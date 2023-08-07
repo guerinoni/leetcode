@@ -1,6 +1,5 @@
 pub fn hamming_weight(n: u32) -> i32 {
     (0..32)
-        .into_iter()
         .fold((0_i32, n), |(counter, number), _| {
             (counter + (number & 1 == 1) as i32, number >> 1)
         })

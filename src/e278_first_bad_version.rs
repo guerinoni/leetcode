@@ -14,7 +14,7 @@ impl Solution {
                 low = mid + 1;
             }
         }
-        low as i32
+        low
     }
 }
 
