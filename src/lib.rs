@@ -39,6 +39,7 @@ mod e231_power_of_two;
 mod e232_implement_queue_using_stack;
 mod e234_palindrome_linked_list;
 pub mod e242_valid_anagram;
+mod e2496_maximum_value;
 mod e2506_similar_pairs;
 mod e257_binary_tree_path;
 mod e258_add_digits;
