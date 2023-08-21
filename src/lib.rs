@@ -66,4 +66,5 @@ pub mod e88_merge_sorted_array;
 pub mod e94_binary_tree_inorder_traversal;
 mod e977_sorted_squares;
 pub mod e9_palindrome_number;
+mod m2829_minimum_sum;
 mod m894_all_possible_full_binary_tree;

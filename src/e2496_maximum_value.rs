@@ -1,5 +1,8 @@
 pub fn maximum_value(strs: Vec<String>) -> i32 {
-    strs.iter().map(|s| s.parse::<u32>().unwrap_or(s.len() as u32)).max().unwrap() as i32
+    strs.iter()
+        .map(|s| s.parse::<u32>().unwrap_or(s.len() as u32))
+        .max()
+        .unwrap() as i32
 }
 
 #[cfg(test)]
