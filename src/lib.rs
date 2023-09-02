@@ -48,6 +48,7 @@ mod e268_missing_number;
 pub mod e26_remove_duplicates_from_sorted_array;
 mod e278_first_bad_version;
 pub mod e27_remove_element;
+mod e2824_count_pairs;
 mod e283_move_zeroes;
 mod e290_word_pattern;
 mod e338_counting_bits;
