@@ -16,6 +16,7 @@ mod e144_binary_tree_preorder_traversal;
 mod e145_binary_tree_postorder_traversal;
 pub mod e14_longest_common_prefix;
 mod e1576_modify_string;
+mod e1684_count_consistent_strings;
 mod e168_excel_sheet_column_title;
 mod e169_majority_element;
 mod e171_excel_sheet_column_number;
