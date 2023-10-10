@@ -5,6 +5,7 @@ pub mod e108_convert_sorted_array_to_binary_search_tree;
 mod e110_balanced_binary_tree;
 mod e111_minimum_depth_of_binary_tree;
 mod e112_path_sum;
+mod e1154_day_of_year;
 mod e118_pascal_triangle;
 pub mod e119_pascal_triangle_two;
 mod e121_best_time_buy_sell_stock;
