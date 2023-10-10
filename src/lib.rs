@@ -21,6 +21,7 @@ mod e1684_count_consistent_strings;
 mod e168_excel_sheet_column_title;
 mod e169_majority_element;
 mod e171_excel_sheet_column_number;
+mod e1784_check_ones_segment;
 pub mod e190_reverse_bits;
 mod e191_number_of_1_bit;
 mod e1957_make_fancy_string;
