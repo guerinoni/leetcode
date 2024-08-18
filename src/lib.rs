@@ -59,6 +59,7 @@ mod e292_can_win_nim;
 mod e303_range_sub_query_immutable;
 mod e326_power_of_three;
 mod e338_counting_bits;
+mod e342_power_of_four;
 pub mod e35_search_insert_position;
 pub mod e53_maximum_subarray;
 pub mod e58_length_last_word;
