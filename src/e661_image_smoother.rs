@@ -8,7 +8,7 @@ pub fn image_smoother(img: Vec<Vec<i32>>) -> Vec<Vec<i32>> {
 
     let mut result = vec![vec![0; img[0].len()]; img.len()];
 
-    let directions = vec![
+    let directions = [
         (-1, -1),
         (-1, 0),
         (-1, 1),

@@ -9,7 +9,7 @@ pub fn longest_common_prefix(strs: Vec<String>) -> String {
     }
 
     let mut idx = 1;
-    let first = strs.get(0).unwrap().as_str();
+    let first = strs.first().unwrap().as_str();
     loop {
         if idx > first.len() {
             break;

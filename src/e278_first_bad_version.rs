@@ -1,6 +1,6 @@
 struct Solution;
 impl Solution {
-    fn isBadVersion(&self, version: i32) -> bool {
+    fn is_bad_version(&self, version: i32) -> bool {
         version == 4
     }
 
@@ -8,7 +8,7 @@ impl Solution {
         let (mut low, mut high) = (1, n);
         while low < high {
             let mid = low + (high - low) / 2;
-            if self.isBadVersion(mid) {
+            if self.is_bad_version(mid) {
                 high = mid;
             } else {
                 low = mid + 1;

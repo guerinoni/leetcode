@@ -4,7 +4,7 @@ pub fn day_of_year(date: String) -> i32 {
     let month = parts.next().unwrap().parse::<i32>().unwrap();
     let day = parts.next().unwrap().parse::<i32>().unwrap();
 
-    let months = vec![31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
+    let months = [31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31];
     let mut days = 0;
 
     for m in 1..month {

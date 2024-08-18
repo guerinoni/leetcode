@@ -1,15 +1,15 @@
 pub fn is_sum_equal(first_word: String, second_word: String, target_word: String) -> bool {
     let fw = first_word
         .chars()
-        .fold(0, |acc, c| acc * 10 + (c as u8 - 'a' as u8));
+        .fold(0, |acc, c| acc * 10 + (c as u8 - b'a'));
 
     let sw = second_word
         .chars()
-        .fold(0, |acc, c| acc * 10 + (c as u8 - 'a' as u8));
+        .fold(0, |acc, c| acc * 10 + (c as u8 - b'a'));
 
     let tw = target_word
         .chars()
-        .fold(0, |acc, c| acc * 10 + (c as u8 - 'a' as u8));
+        .fold(0, |acc, c| acc * 10 + (c as u8 - b'a'));
 
     fw + sw == tw
 }

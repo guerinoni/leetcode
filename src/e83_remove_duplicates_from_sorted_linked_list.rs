@@ -34,7 +34,7 @@ pub fn delete_duplicates(head: Option<Box<ListNode>>) -> Option<Box<ListNode>> {
         }
 
         // prev.next = prev.next.next (or lets say current.next) a bit tricky in rust :)
-        let next = std::mem::replace(&mut current.next, None);
+        let next = Option::take(&mut current.next);
         let _ = std::mem::replace(&mut prev.next, next);
     }
 
