@@ -57,6 +57,7 @@ mod e283_move_zeroes;
 mod e290_word_pattern;
 mod e292_can_win_nim;
 mod e303_range_sub_query_immutable;
+mod e326_power_of_three;
 mod e338_counting_bits;
 pub mod e35_search_insert_position;
 pub mod e53_maximum_subarray;
