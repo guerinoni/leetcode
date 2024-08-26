@@ -48,6 +48,7 @@ mod e2506_similar_pairs;
 mod e257_binary_tree_path;
 mod e258_add_digits;
 mod e263_ugly_number;
+mod e2645_add_minimum;
 mod e268_missing_number;
 mod e2696_min_length;
 pub mod e26_remove_duplicates_from_sorted_array;
