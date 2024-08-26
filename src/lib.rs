@@ -50,6 +50,7 @@ mod e258_add_digits;
 mod e263_ugly_number;
 mod e268_missing_number;
 pub mod e26_remove_duplicates_from_sorted_array;
+mod e2733_find_non_min_or_max;
 mod e278_first_bad_version;
 pub mod e27_remove_element;
 mod e2824_count_pairs;
